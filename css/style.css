@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+    word-spacing: normal;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+nav{
+    background-color: transparent;
+    max-width: 1440px;
+    height: 69px;
+    margin-top: 60px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+
+label.name{
+    color: black;
+    font-size: 45px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;  
+}
+
+nav ul{
+    float: right;
+    margin-right:45px;
+    word-spacing: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    color: #07043B;
+}
+
+.cube{
+    max-width: 700px;
+    height: 450px;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: flex;   
+    margin: 0;   
+}
+
+.cube2{
+    max-width: 700px;
+    height: 450px;
+    background-color:transparent;
+    top: 100px;
+    left: 900px;
+    display: flex;
+    margin: auto;
+    margin-top: -351px;
+    margin-left: 800px;
+    background-size: cover;
+}
+
+span{
+    font-family: 'Raleway';   
+    padding-top: 70px;
+    font-size: 40px;
+    padding-left: 25px;
+    color: #07043B;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    padding-top: 1px;
+}
+
+label{
+    position: relative;
+}
+
+input[type="text"]{
+    border: none;
+    width:300px;
+    height: 43px;
+    padding: 0 16px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    margin-top: 15px;
+    margin-left: -1px;
+    font-size: 19px;
+}
+
+button{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    background-color:  #6C9BFF;
+    ;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 43px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    left: 313px;
+    width: 158px;
+}
+
+button:hover{
+    transition: .8s;
+    background-color: #6c6c6c;
+}
